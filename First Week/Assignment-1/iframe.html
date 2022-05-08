@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        #menu div{
+                background-color:black;
+                
+                padding-left: 0px;
+                padding: 10px;
+                margin-left: 0px;
+                margin-top: 20px;
+                color: aliceblue;
+                
+                margin-bottom: 30px;
+                text-align: center;
+        }
+
+        a{
+            text-decoration: none;
+            width: 20px;
+            color: white;
+            padding: 0px;
+            margin: 0px;
+        }
+        #container{
+            display: flex;
+            
+        }
+        #menu div{
+            flex: 1;
+        }
+        #ifr{
+            flex: 4;
+            background:linear-gradient(45deg,limegreen, coral,limegreen);
+           
+        }
+        iframe{
+             width:185vh;
+            height: 100vh;
+            
+        }
+        
+    </style>
+   
+</head>
+<body>
+<div id="container">
+    <div id="menu">
+        <div>
+        
+        <a href="mobils.html" target="rightpanel">Mobile</a>
+        </div>
+        <div>
+        <a href="tv.html" target="rightpanel">TV</a>
+        </div>
+        <div>
+        <a href="laptop.html" target="rightpanel">Laptop</a>
+        </div>
+        <div>
+        <a href="men,s-clothing.html" target="rightpanel">Men's Clothing</a>
+        </div>
+        
+    </div>
+    
+    <div id="ifr">
+         <iframe name="rightpanel"></iframe>
+    </div>
+    
+</div>
+</body>
+</html>
